@@ -7,7 +7,7 @@ https://cuelholima.github.io/copiar-excel-colar-md/
 
 Copie uma tabela do Excel (ou outro programa de planilha similar) e cole no campo digitável. O resultado será automático.
 
-![demo](https://cl.ly/120h1K2Q1Y3H/Screen%20Recording%202016-08-31%20at%2010.31%20PM.gif)
+![demo](https://media.giphy.com/media/5WJ0IYNqZA77fwdsQw/giphy.gif)
 
 ## Alinhamento de colunas
 
