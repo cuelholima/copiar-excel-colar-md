@@ -105,23 +105,23 @@ button.css3button2 {
 		width: 100%;
 	}
 
-	h1 {margin-left: 5px; margin-top: 5px; margin-bottom: 0px; font-family: "Lucida Console"; font-size:15px;}
+	h1 {margin-left: 5px; margin-top: 5px; margin-bottom: 0px; font-family: "Lucida Console"; font-size:100%;}
 	textarea {
 		margin-top: 5px;
 		margin-left: 5px;
 		width: 97%;
-		height: 200px;
+		height: 50%;
 	}
 	button.css3button {
 		margin-top: 15px;
 		margin-left: 5px;
 		font-family: "Lucida Console";
-		font-size: 10px;
+		font-size: 100%;
 	}
 	button.css3button2 {
 		margin-top: 15px;
 		margin-left: 5px;
 		font-family: "Lucida Console";
-		font-size: 10px;
+		font-size: 100%;
 	}
 }
