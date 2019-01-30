@@ -1,22 +1,28 @@
 <!doctype html>
 
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8">
   <title>Copiar Excel colar md</title>
-  <link rel='shortcut icon' type='image/x-icon' href='markdown.png'/>
+  <link rel='shortcut icon' type='image/x-icon' href='markdown.png' />
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <h1>Conversor: Excel > Markdown</h1>
-  <textarea placeholder="Cole aqui sua tabela Excel! A conversão será automática o/" rows="20" name="comment[text]" id="editor" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
-  <br>
-  <button onclick="copiarTexto()" type="button" class="css3button">Copiar resultado</button>
-  <button onclick="apagarTexto()" type="button" class="css3button2">Apagar</button>
+  <div class="container">
+    <h1>Conversor: Excel > Markdown</h1>
+    <textarea placeholder="Cole aqui sua tabela Excel! A conversão será automática o/" rows="20" name="comment[text]"
+      id="editor" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list"
+      aria-haspopup="true"></textarea>
+    <br>
+    <button onclick="copiarTexto()" type="button" class="css3button">Copiar resultado</button>
+    <button onclick="apagarTexto()" type="button" class="css3button2">Apagar</button>
 
-  <script src="buttons.js"></script>
-  <script src="script.js"></script>
+    <script src="buttons.js"></script>
+    <script src="script.js"></script>
+  </div>
 
 </body>
+
 </html>
