@@ -1,6 +1,7 @@
 # Copy Excel Paste Markdown
 
-fork do projeto "Copy-Excel-Paste-Markdown" com incrementos no código e tradução em PT-BR. Acesse https://cuelholima.github.io/copiar-excel-colar-md/ para fazer a operação agora mesmo!
+fork do projeto "Copy-Excel-Paste-Markdown" com incrementos no código e tradução em PT-BR. Acesse o link abaixo para fazer a operação:<br>
+https://cuelholima.github.io/copiar-excel-colar-md/
 
 ## Como funciona?
 
