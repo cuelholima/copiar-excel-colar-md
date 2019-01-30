@@ -99,7 +99,7 @@ button.css3button2 {
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1250px) {
 	.container {
 		justify-content: center;
 		width: 100%;
