@@ -1,21 +1,21 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <title>Copy Excel Paste Markdown</title>
-
-  <style>
-    textarea {
-      width: 400px;
-      height: 200px;
-      font-family: "Lucida Console"
-    }
-  </style>
+  <title>Copiar Excel colar md</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <textarea id="editor"></textarea>
+  <h1>Conversor: Excel > Markdown</h1>
+  <textarea placeholder="Cole aqui sua tabela Excel! A conversão será automática o/" rows="20" name="comment[text]" id="editor" cols="40" class="ui-autocomplete-input" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true"></textarea>
+  <br>
+  <button onclick="copiarTexto()" type="button" class="css3button">Copiar resultado</button>
+  <button onclick="apagarTexto()" type="button" class="css3button2">Apagar</button>
+
+  <script src="buttons.js"></script>
   <script src="script.js"></script>
+
 </body>
 </html>
