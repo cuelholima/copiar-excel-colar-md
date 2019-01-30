@@ -7,7 +7,7 @@ h2 {margin-left: 55px;}
 textarea {
   margin-top: 30px;
   margin-left: 50px;
-  width: 400px;
+  width: 35%;
   height: 200px;
   -moz-border-bottom-colors: none;
   -moz-border-left-colors: none;
@@ -24,7 +24,7 @@ textarea {
   font-family: "Lucida Console";
   font-size: 1em;
   line-height: 1.4em;
-  padding: 5px 8px;
+  padding: 8px 8px 8px 15px;
   transition: background-color 0.2s ease 0s;
 }
 
