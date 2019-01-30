@@ -1,31 +1,35 @@
 # Copy Excel Paste Markdown
 
-Copy a table in Excel (or other spreadsheet programs) and paste it as a Markdown table.
+fork do projeto "Copy-Excel-Paste-Markdown" com incrementos no código e tradução em PT-BR. Acesse https://cuelholima.github.io/copiar-excel-colar-md/ para fazer a operação agora mesmo!
+
+## Como funciona?
+
+Copie uma tabela do Excel (ou outro programa de planilha similar) e cole no campo digitável. O resultado será automático.
 
 ![demo](https://cl.ly/120h1K2Q1Y3H/Screen%20Recording%202016-08-31%20at%2010.31%20PM.gif)
 
-## Column Alignments
+## Alinhamento de colunas
 
-You can optionally specify column alignment information by prepending one of the following to the column heading names in Excel:
+Opcionalmente, você pode pré-especificar um alinhamento de coluna. Basta colocar uma das sequências de caracteres nos nomes de cabeçalho da coluna:
 
-* ^c  - center alignment
-* ^r  - right alignment
-* ^l   - left alignment (the default)
+* ^c  - alinhamento no centro
+* ^r  - alinhamento à direita
+* ^l  - alinhamento à esquerda (padrão)
 
-For example: enter the following in Excel to right-align the second column and center-align the third column:
+Exemplo prático: Insira ^r no cabeçalho PESO para alinhar à direita. Insira ^c no cabeçalho cor para alinhar ao centro, como é mostrado abaixo.
 
-| animal | ^rweight | ^ccolor  |
-|--------|----------|----------|
-| dog    | 30lb     | tan      |
-| dog    | 85lb     | black    |
-| cat    | 18lb     | calico   |
+| ANIMAL    | ^rPESO   | ^cCOR    |
+|-----------|----------|----------|
+| cão       | 3,8kg    | marrom   |
+| gato      | 7,5kg    | preto    |
+| flamingo  | 2,7kg    | rosa     |
 
-This will produce the following markdown table when pasted:
+Isso irá produzir o seguinte resultado em markdown:
 
 ```markdown
-| animal | weight | color  |
-|--------|-------:|:------:|
-| dog    | 30lb   | tan    |
-| dog    | 85lb   | black  |
-| cat    | 18lb   | calico |
+| ANIMAL    | PESO   | COR     |
+|-----------|-------:|:-------:|
+| cão       | 3,8kg  | marrom  |
+| gato      | 7,5kg  | preto   |
+| flamingo  | 2,7kg  | rosa    |
 ```
