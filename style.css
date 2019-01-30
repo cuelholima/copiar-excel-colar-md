@@ -99,7 +99,7 @@ button.css3button2 {
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
 	.container {
 		justify-content: center;
 		width: 100%;
@@ -109,7 +109,7 @@ button.css3button2 {
 	textarea {
 		margin-top: 5px;
 		margin-left: 5px;
-		width: 100%;
+		width: 97%;
 		height: 200px;
 	}
 	button.css3button {
